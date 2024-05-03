@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/milestone' }
+        maven { url 'https://repo.spring.io/snapshot' }
+        gradlePluginPortal()
+    }
+}
+
+// O repositorio no Docker Hub precisa ter esse nome
+rootProject.name = 'aws_project01'
